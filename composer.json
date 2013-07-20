@@ -1,0 +1,27 @@
+{
+        "repositories": [
+                {
+                        "type": "vcs",
+                        "url": "http://github.com/ryprop/nife.git"
+                }
+        ],
+	"name": "ryprop/nife-demo",
+	"description": "Demonstration project for Nife",
+	"authors": [
+		{
+			"name": "Ryan Parker",
+			"email": "ryan@nife-framework.org",
+			"homepage": "http://www.nife-framework.org/"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ryprop/nife": "0.0.*"
+	},
+	"minimum-stability": "dev",
+        "autoload": {
+                "psr-0": {
+                        "NifeDemo_": "lib/"
+                }
+        }
+}
